@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+/* bg image */
+.bg{
+    background: url('/Homework/Theater/background.png');
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.headline{
+    width: 100vw;
+    height: 80vh;
+    font-size: 68px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.headline h1{
+    font-weight: 400;
+    color: white;  
+}
+nav{
+    position: relative;
+    width: 100vw;
+    height: 80px;
+    padding: 0px 90px;
+    box-sizing: border-box;
+}
+nav .logo{
+    float: left;
+    padding: 15px 30px;
+    height: 80px;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.558);
+    font-weight: 300;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.558);
+    font-weight: 100;
+    font-size: 14px;
+}
+nav ul li a{
+    line-height: 80px;
+    padding: 12px 30px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.558);
+}
+nav ul li a:hover{
+    background: rgba(247, 72, 72, 0.447);
+    box-shadow: 0 0 30px rgb(9, 175, 236);
+    border-radius: 10px;
+}
+.date{
+    border: 1px solid grey;
+    background-color: rgba(225, 197, 202, 0.516);
+    max-width: 1100px;
+    margin: 40px auto;
+    height: 3vh;
+    display: flex;
+    align-items: center; 
+}
+.date h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 120px;
+}
+.pic img{
+    width: 220px;
+    height: 180px;
+}
+.container {  display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 30px 0px;
+    align-content: space-between;
+    grid-template-areas:
+      "pic- writing button"
+      ". . ."
+      ". . ."
+      ". . .";
+    max-width: 1000px;
+    height: 1000px;
+    margin: auto;
+  }
+.writing p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.writing p1{
+    font-size: 18px;
+    font-weight: bold;
+}
+.writing p2{
+    font-size: 16px;
+    font-weight: 400;
+}  
+.writing p3{
+    font-size: 16px;
+    font-weight: 400;
+}
+.container button{
+    justify-content: end;
+}
+.button button{
+    width: 180px;
+    height: 60px;
+    background-color: orange;
+    font-size: 26px;
+}
+button a{
+    color: white;
+}
+.map img{
+    width: 250px;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+footer a{
+    color: white;
+}
+footer p{
+    font-size: 18px;
+}
+footer .container {  display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px 14px;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+      "map info shows social";
+    max-width: 1391px;
+    height: 300px;
+  }
+  footer .map img{
+    width: 300px;    
+  }
+  footer .info a img{
+    width: 25px;
+    justify-content: left;
+  }
+  
+  
